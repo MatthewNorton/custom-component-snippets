@@ -1,0 +1,16 @@
+node_modules
+build
+coverage
+package-lock.json
+
+
+#webstorm
+.idea
+
+
+#IDE
+.vscode
+
+
+#development
+disable-button.jsx

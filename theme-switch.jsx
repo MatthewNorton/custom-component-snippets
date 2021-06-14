@@ -12,12 +12,6 @@
      themeName = 'Norton Special Theme';
  };
 
-
-
-
-
-
-
  /* ================================= 
  Theme Switcher using localStorage
  - Add below  var options = {}; 
@@ -30,13 +24,9 @@
          }
          componentDidMount() {
 
-             //var storage = localStorage.getItem('theme'); // uncomment for debugging 
-             //console.log("Theme is set to:", storage); // uncomment for debugging
 
-
-             let customTheme = document.querySelector('.theme-custom'); // Add theme-custom to outcome class that triggers custom theme. 
-             let defaultTheme = document.querySelector('.theme-default'); // Add theme-default to outcome Class that triggers default theme.
-
+             let customTheme = document.querySelector('.theme-custom');
+             let defaultTheme = document.querySelector('.theme-default'); 
 
              defaultTheme.addEventListener('click', function () {
                  localStorage.remmoveItem('theme');

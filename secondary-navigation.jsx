@@ -1,8 +1,8 @@
 /* ================================= 
 Secondary Navigation
+- Adjust flow id for each link
 ================================= */
 const customNav = function newNav(props) {
-
 
     return React.createElement("nav", {
         class: "navbar navbar-default onboard"
