@@ -10,9 +10,9 @@ const ColumnHref = function columnHref(props) {
       {
         target: '_blank',
         class: 'column-href',
-        href: hrefString
+        href: 'https://' + hrefString
       },
-      'Click to open'
+      'Click Here'
     );
   }
   return null;
